@@ -1,0 +1,33 @@
+<div class="jumbotron">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<h2>Train with professionals and gain an internationally recognized legal qualification</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<p><a href="#" class="btn btn-success btn-large">Find out more</a></p>		
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fuid register-container">
+	<div class="container">
+		<p>Start your training as a legal secretary, legal assistant or legal professional and gain an internationally recognized qualification. To speak to one of our experienced legal careers advisers, register with us today.</p>
+		<form name="userForm">
+				<div class="form-group col-md-4" ng-class="{'has-error': userForm.name.$invalid && !userForm.name.$pristine}">
+					<input type="text" class="form-control" name="name" ng-model="user.name" ng-maxlength="5" ng-minlength="2"  placeholder="Enter name" required>
+				</div>
+			
+				<div class="form-group col-md-4">
+					<input type="email" class="form-control" name="email" ng-model="user.email" placeholder="Enter email" required>
+				</div>
+				<button class="btn col-md-1" ng-click="save()">Add User</button>
+		</form>
+	</div>
+	<br>
+</div>

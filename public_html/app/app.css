@@ -1,0 +1,153 @@
+.jumbotron {
+	background: url('http://www.privateinstituteoflaw.com/wp-content/uploads/2014/10/banner.png') no-repeat;
+	background-size: cover;
+	color: #434343;
+	margin:0px;
+	height:500px;
+}
+
+.jumbotron h2{
+	font-size: 36px;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+html,
+body {
+  margin:0px;
+  padding:0px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Quicksand', 'Helvetica Neue',Helvetica,Arial, sans-serif;
+  font-size: 16px;
+  background: #E7E7E7;
+  color: #666;
+}
+
+.container-fluid {
+	margin:0px;
+	padding:0px;
+}
+/*
+.navbar {
+    padding: 20;
+	background-color: #fff;
+	margin:0px;
+}
+
+
+.navbar .nav li {
+	text-align: center;
+	opacity: 1;
+}
+.navbar-brand {
+	padding: 0;
+	margin-right: 60px;
+}
+
+.navbar-default .navbar-nav {
+	padding-top:0px;
+	padding-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color: #319849;
+	color: white !important;
+	font-size: 22px;
+}
+.navbar-nav>li>a:hover {
+	color: #ffffff !important;
+}
+
+.navbar-nav>li:hover {
+	background-color: #12d108;
+	color: white ;
+}
+
+.navbar-nav>li>a {
+	padding-top: 0px; 
+	padding-bottom: 0px;
+	line-height: 90px;
+	font-size: 22px;
+	color: #56ba56 !important;
+}*/
+
+.reveal-animation:hover {
+  font-size: 22px;
+}
+
+.register-container p {
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.register-container {
+	background-color: #319849;
+	box-shadow: 1px 1px 5px  #000;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header {
+  font-size: 18px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #FFF;
+  padding:0px;
+  margin:0px;
+  box-shadow: 0px 0px 20px  #000;
+}
+.header li {
+  line-height:40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header .nav-stacked li {
+  line-height:20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.training {
+	background: url('http://www.privateinstituteoflaw.com/wp-content/uploads/2014/10/training.png') no-repeat center center;
+	color: white;
+	background-size: cover;
+}
+
+.navbar-header{
+  background: #EEE;
+  padding:0px;
+  margin:0px;
+}
+
+.nav-stacked{
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.logo{
+	text-align:center;
+}
+
+.nav-pills >li a:hover{
+	background-color: #319849;
+	color:white;
+}
+
+.nav-pills > .active > a {
+	background-color: #319849 !important;
+}
